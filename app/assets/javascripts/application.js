@@ -18,12 +18,3 @@
 //= require jquery
 //= require bootstrap
 
-var popUp = () => {
-  var name = prompt("What's your name?", "...type in your name")
-  if (name == null || name == "" || name === "...type in your name") {
-    alert("Try again, or just chat.");
-  } else {
-    alert(`Welcome ${name}!`);
-  }
-  
-}
