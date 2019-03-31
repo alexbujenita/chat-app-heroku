@@ -18,8 +18,8 @@
 //= require jquery
 //= require bootstrap
 
-const popUp = () => {
-  const name = prompt("What's your name?", "...type in your name")
+var popUp = () => {
+  var name = prompt("What's your name?", "...type in your name")
   if (name == null || name == "" || name === "...type in your name") {
     alert("Try again, or just chat.");
   } else {
